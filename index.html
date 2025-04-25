@@ -6,239 +6,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
     <title>Mehnan Kashif Portfolio</title>
     <link rel="icon" type="image/x-icon" href="Forimages/MK.png">
-
-    <style>
-        /* DarkerPurple: #291c3a;
-           DarkPurple: #331c52; 
-           Purple: #8121d0;
-           LesserWhite: #dccfed;
-           LessWhite: #e1ebed;
-           White: #ffffff;*/
-        
-           /*button hover*/
-        #hire:hover {
-            background-color: #291c3a;
-            color: #e1ebed;
-        }
-           /*Logo Text*/
-        .mkd {
-            font-family: 'showboat';
-            src: url('fonts/showboat-webfont.woff2') format('woff2'),
-                url('fonts/showboat-webfont.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-            font-size: 42px;     
-            cursor: pointer;       
-        }
-
-        @font-face {
-            font-family: 'showboat';
-            src: url('fonts/showboat-webfont.woff2') format('woff2'),
-                url('fonts/showboat-webfont.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-        }
-
-        .nav-item a {
-            color: #fff;
-        }
-
-        .nav-item a:hover {
-            color: #291c3a;
-        }
-
-        .main {
-            background-image: linear-gradient(to right, #331c52, #291c3a);
-        }
-
-        .name {
-            color:#d1bfe9;
-            font-size: 75px;
-            font-family:Arial, Helvetica, sans-serif;
-            font-weight: bold;
-        }
-
-        .social a {
-            color: #d1bfe9;
-            padding-right: 15px;
-            font-size: 36px;
-        }
-
-        .exp {
-            font-size: 21px;
-            color:#d1bfe9;
-        }
-
-        .skills {
-            font-size: 56px;
-        }
-
-        .pro .ject {
-            width: 320px;
-            height: 360px;
-            background-color: #d1bfe9;
-            margin-right: 15px;
-            padding: 10px;
-            text-align: center;
-            border-radius: 5px;
-        }     
-        
-        .ject img {
-            margin-bottom: 15px;
-            border-radius: 5px;
-        }
-
-        .ject .btn {
-            background-color: #331c52;
-            color: #fff;
-        }
-
-        .parpal {
-            background-color: #d1bfe9;
-        }
-
-        .darked {
-            background-color: #331c52;
-        }
-
-        .butons .btn {
-            border: 2px solid #331c52;
-            color: #331c52;
-            font-weight: bold;
-        }
-
-        .butons .btn:hover, .butons .btn:active, .danke {
-            background-color: #331c52;
-            color: #d1bfe9;
-        }
-
-        .submit, .submit:hover, .butons .btn:active {
-            background-color: #331c52;
-            color: #fff;
-        }
-
-        .col-sm-6 input, textarea {
-            border: none;
-            padding: 10px 15px;
-            color: #331c52;
-            font-size: 19px; 
-            border-radius: 5px;
-        }
-
-        .danke {
-            font-family: 'anglotext';
-            src: url('fonts/anglotext-webfont.woff2') format('woff2'),
-                url('fonts/anglotext-webfont.woff') format('woff');
-            font-weight: normal;
-            font-style: normal;
-            font-size: 42px;     
-            cursor: pointer;       
-        }
-
-
-        .sontact a {
-            color: #fff;
-            padding-right: 15px;
-            font-size: 32px;
-        }
-
-    /* Responsive Styles */
-
-        @media (max-width: 1324px) {
-            .hund {
-                width: 100%;
-                text-align: center;
-                margin-top: 10px;
-            }
-            
-            .skills {
-                text-align: left !important;
-            }
-
-            .fift {
-                width: 50%;
-                text-align: center;
-            }
-        }
-
-        @media (max-width: 992px) {
-            .name {
-                font-size: 2.5rem;
-            }
-
-            .exp {
-                font-size: 1rem;
-            }
-
-            .dino {
-                display: none;
-            }
-
-            .navbar-brand, .skills {
-                font-size: 2rem;
-            }
-
-            .nav-item, #hire {
-                margin-left: 50px;
-            }
-
-            #hire {
-                margin-top: 15px;
-                margin-bottom: 15px;
-            }
-
-            .upspace h3 {
-                margin-top: 15px;
-            }
-        }
-
-        @media (max-width: 576px) {
-            .navbar-brand, .skills {
-                font-size: 1.5rem;
-            }
-
-            .name {
-                font-size: 2rem;
-            }
-
-            .exp {
-                font-size: 0.9rem;
-            }
-
-            .social a {
-                font-size: 24px;
-            }
-
-            .fift {
-                width: 100%;
-                text-align: center;
-            }
-
-            .fift h2 {
-                margin-left: 16px !important;
-            }
-
-            #skills {
-                margin-top: 36px;
-                padding-left: 16px !important;
-            }
-        }
-
-        @media (max-width: 380px) {
-            .mkd {
-                margin-left: 10px !important;
-            }
-        }
-
-    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #8121d0;">
+    <nav class="navbar navbar-expand-xl" style="background-color: #8121d0;">
         <div class="container-fluid">
           <h2 class="navbar-brand text-light mkd ms-5 mt-2">MK Developer</h2>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -257,9 +33,14 @@
                 <a class="nav-link me-4 fs-4" href="#projects">Projects</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <button class="btn btn-light" type="submit" id="hire"> Hire Me <i class="fa fa-arrow-right"></i></button>
-            </form>
+            <span class="d-flex">
+                <a href="tel:+923040199534" class="btn btn-light mt-3 mb-3 me-2 border border-white" id="hire">
+                    Hire Me <i class="fa fa-arrow-right"></i>
+                </a>    
+                <a download href="Forimages/Mehnan-Kashif-CV.zip" class="btn btn-outline-light mt-3 mb-3 me-5" id="resume">
+                    Download CV <i class="fas fa-download"></i>
+                </a>                                
+            </span>
           </div>
         </div>
     </nav>
@@ -268,9 +49,14 @@
             <div class="col-lg-8">
                 <h1 class="text-light mt-5 mb-3 ms-5">Hello,</h1>
                 <h1 class="name ms-5">My name is <br> Mehnan Kashif</h1>
-                <h1 class="text-light mt-4 mb-5 ms-5">I'm a Web Developer</h1>
+                <h1 class="text-light mt-4 mb-4 ms-5">I'm a Web Developer</h1>
+                <span class="d-flex">
+                    <a href="#discuss" class="btn btn-light mb-5 ms-5 mt-2" id="gets">
+                        Get Started <i class="fa fa-arrow-down"></i>
+                    </a>                  
+                </span>
                 <span class="social ms-5">
-                    <a href="https://www.linkedin.com/in/mehnan-kashif-b3a7ba249/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/mehnan-kashif-mmk534" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/mehnan5" target="_blank"><i class="fa-brands fa-github"></i></a>
                     <a href="mailto:mehnankashif@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
                     <a href="https://www.facebook.com/Mehnan.Kashif.58" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -283,47 +69,51 @@
         </div>
     </div>
     <div class="container-fluid bg-dark">
-        <div class="row">
-            <div class="col-sm-3 pt-3 fift">
+        <div class="row pt-2 pb-2">
+            <div class="col-sm-3 fift">
                 <h2 class="text-light ms-5 d-inline" style="font-size: 48px;">3</h2>
                 <h3 class="exp ms-2 d-inline">YEARS OF EXPERIENCE</h3>
             </div>
-            <div class="col-sm-3 pt-3 fift">
+            <div class="col-sm-3 fift">
                 <h2 class="text-light d-inline ms-3" style="font-size: 48px;">12</h2>
                 <h3 class="exp ms-2 d-inline">PROJECTS COMPLETED</h3>
             </div>
             <div class="col-sm-1"></div>
-            <div class="col-sm-5 pb-2 hund">
+            <div class="col-sm-5 hund">
                 <span class="skills">
-                    <img width="75" height="75" src="https://img.icons8.com/color/75/html-5--v1.png" alt="html-5--v1"/>
-                    <img width="75" height="75" src="https://img.icons8.com/color/75/css3.png" alt="css3"/>
-                    <img width="75" height="75" src="https://img.icons8.com/color/75/bootstrap--v2.png" alt="bootstrap--v2"/>
-                    <img width="75" height="75" src="https://img.icons8.com/color/75/javascript--v1.png" alt="javascript--v1"/>
-                    <img width="75" height="75" src="https://img.icons8.com/color/75/wordpress.png" alt="wordpress"/>
-                    <img width="75" height="75" src="https://img.icons8.com/officel/75/php-logo.png" alt="php-logo"/>
+                    <img src="Forimages/html-5-svgrepo-com.svg" alt="html-5--v1"/>
+                    <img src="Forimages/css-3-svgrepo-com.svg" alt="css3"/>
+                    <img src="Forimages/icons8-bootstrap.svg" alt="bootstrap--v2"/>
+                    <img src="Forimages/javascript-svgrepo-com.svg" alt="javascript--v1" class="trio" style="width: 50px; height: 50px;"/>
+                    <img src="Forimages/wordpress-svgrepo-com.svg" alt="wordpress"/>
+                    <img src="Forimages/php-svgrepo-com.svg" class="trio" alt="php-logo"/>
+                    <img src="Forimages/mysql-logo-svgrepo-com.svg" alt="mysql-logo" class="trio" style="width: 75px; height: 75px"/>
                 </span>
             </div>
         </div>
     </div>
     <div class="container-fluid bg-light">
-        <div class="row p-5">
-            <div class="col-sm-6 pt-3" id="about" style="border-right: 3px solid #8121d0;">
+        <div class="shadding row p-5">
+            <div class="col-sm-6 pt-3 ps-2 pe-2" id="about" style="border-right: 3px solid #8121d0;">
                 <h1>About Me</h1>
                 <p class="col-lg-12 pe-3 mt-3">
-                    Hi, I’m Mehnan Kashif, a certified professional Web developer & designer with 3 years of experience in the Field of creating stunning websites and designing engaging visuals. I did two <mark>certifications</mark> web development one from <mark>Fitsco</mark> and the other from <mark>Cgit.</mark> After these certifications, I learn the wordpress and also worked as a paid internee wordpress web designer at <mark>Oobconnect (a softwarehouse).</mark><br><br> Other then that I have a further work experiance at <mark>HexaTech Solutions an IT Company.</mark> In this exciting professional journey, I learn many general skills also like communication, client dealing and other computer skills etc.<br><br>
+                    I'm Mehnan Kashif, a certified Web Developer & Designer with 3 years of hands-on experience crafting stunning websites and smart design solutions. I completed Web Development certifications from <mark>Fitsco</mark> and <mark>Cgit</mark>. 
+                    These programs gave me a solid foundation in front-end technologies. After this, I expanded my expertise through hands-on experience at <mark>Oobconnect</mark> and <mark>Snow Dream Studios.</mark>
 
-                    My <mark>mission</mark> is to empower businesses with creative, user-centric design solutions that not only captivate visually but also exceed expectations and drive impactful results. I am dedicated to delivering designs that blend aesthetics with functionality to achieve <mark>exceptional outcomes</mark> for my clients.<br><br>
-
-                    With a strong background in Html5, Css3, and Javascript, I’m specialized in custom Web Development, Web Designing in <mark>Wordpress</mark>, Integrating AI Chatbot as well as Designing a single page funnel and it's Automation in the <mark>GoHighLevel CRM.</mark> My expertise also includes in Detail Specific AI Tools such as Chatgpt, Gemini, and Copilot. <br><br>
-
-                    I’m always excited to take on new challenges and collaborate on <mark>innovative projects.</mark> Feel free to explore my <mark>portfolio</mark> and reach out if you’d like to discuss how we can work together to bring your vision to life.
-                </p>
+                    <br><br>Along the way, I’ve sharpened not just my technical skills, but also communication, client interaction, and project management. As the job at <mark>HexaTech Solutions</mark> taught me a lot in these areas.
+                  
+                    <br><br>My <mark>mission</mark> is to empower brands with user-focused, visually impactful designs that deliver real results.
+                  
+                    <br><br>I specialize in HTML5, CSS3, JavaScript, WordPress development, AI chatbot integration, and automating funnels via <mark>GoHighLevel CRM</mark>. I'm also experienced with tools like ChatGPT, Gemini, and Copilot.
+                  
+                    <br><br>I’m always up for <mark>innovative projects</mark>—feel free to explore my <mark>portfolio</mark> and let’s build something great together.
+                  </p>                  
             </div>
             <div class="col-sm-6 ps-5 pt-3" id="skills">
                 <h1>My Skills</h1>
                 <p class="col-lg-11 mt-3">I offer a comprehensive range of skills tailored to create impactful and engaging designs. My expertise includes: </p>
                 <div class="row">
-                    <span class="col-lg-6 me-4">
+                    <span class="maright col-lg-6 me-4">
                         <h3>Web Development:</h3>
                         <li>Html5</li>
                         <li>Css3</li>
@@ -339,104 +129,152 @@
                         <li>Wordpress</li>
                         <li>Gutenberg</li>
                         <li>Elementor</li>
-                        <li>GoHighLevel</li>
+                        <li>GoHighLevel (CRM)</li>
                     </span>
                 </div>
-                <div class="skills text-center">
+                <div class="skills-2">
                     <span class="row mt-5">
                         <span class="col-sm-12">
-                            <img width="80" height="80" src="Forimages/HTML5_Badge_512.png" class="me-3" alt="html-5"/>
-                            <img width="80" height="80" src="Forimages/CSS3_logo.svg.png" class="me-3" alt="css3"/>
-                            <img width="80" height="75" src="Forimages/Bootstrap_logo.svg.png" class="me-3 mt-2" alt="bootstrap"/>
-                            <img width="100" height="80" src="Forimages/Js-logo-removebg-preview.png" class="me-3 dino" alt="javascript"/>
+                            <img width="75" height="75" src="Forimages/html-5-svgrepo-com.svg" class="me-2" alt="html-5"/>
+                            <img width="75" height="75" src="Forimages/css-3-svgrepo-com.svg" class="me-2" alt="css3"/>
+                            <img width="75" height="75" src="Forimages/icons8-bootstrap.svg" class="me-2 mt-2" alt="bootstrap"/>
+                            <img width="75" height="65" src="Forimages/javascript-svgrepo-com.svg" class="me-2" alt="javascript"/>
+                            <img width="180" height="80" src="Forimages/jquery-ar21.svg" class="jqury me-2" alt="jquery-logo"/>
                         </span>
                     </span>
                     <span class="row mt-3">
                         <span class="col-sm-12">
-                            <img width="180" height="80" src="Forimages/jquery-removebg-preview.png" class="me-3" alt="jquery-logo"/>
-                            <img width="100" height="60" src="Forimages/php-logo-removebg-preview.png" class="me-3" alt="php-logo"/>
-                            <img width="80" height="80" src="Forimages/vs-code-logo-removebg-preview.png" class="me-3 dino" alt="visual-studio-code-logo"/>
+                            <img width="100" height="75" src="Forimages/php-svgrepo-com.svg" class="me-2" alt="php-logo"/>
+                            <img width="80" height="80" src="Forimages/icons8-visual-studio-code.svg" class="me-2" alt="visual-studio-code-logo"/>
+                            <img width="80" height="80" src="Forimages/wordpress-svgrepo-com.svg" class="me-2" alt="wordpress"/>
+                            <img width="75" height="75" src="Forimages/elementor-icon.svg" class="me-2" alt="elementor"/>
+                            <img width="180" height="80" src="Forimages/logo-Gohighlevel.svg" class="ghli" alt="GoHighLevel">
                         </span>
                     </span>
                     <span class="row mt-3 mb-3">
-                        <span class="col-sm-12">
-                            <img width="80" height="80" src="Forimages/Wordpress-logo-removebg-preview.png" class="me-3" alt="wordpress"/>
-                            <img width="80" height="80" src="Forimages/elementor-removebg-preview.png" class="me-3" alt="elementor"/>
-                            <img width="230" height="70" src="Forimages/go-high-level-removebg-preview.png" class="me-3 mt-3" alt="GoHighLevel">
-                        </span>
+                        <span class="col-sm-12"></span>
                     </span>
                 </div>
             </div>
         </div>
         <div class="container-fluid">
-            <div class="row ps-5 mb-5">
-                <div class="col-sm-12" id="projects">
+            <div class="row ms-5 mb-3 projects">
+                <div class="col-sm-12 xenter">
                     <h1>My Projects</h1>
-                    <p>Here are Some of the Projects I have built:</p>
+                    <p>Here are some of the Projects I have built:</p>
                 </div>
             </div>
+        
             <div class="row d-flex justify-content-center">
-                <div class="col-12 col-md-6 col-lg-4 pro d-flex justify-content-center mb-4">
+                <!-- Project 1 -->
+                <div class="col-12 col-md-6 col-lg-6 col-xl-4 pro d-flex justify-content-center mb-4">
                     <div class="ject ject1">
                         <img src="Forimages/Screenshot fasa-prestige-builders 2024-01-12 173421.png" height="210" alt="Broken">
                         <strong style="font-size: 24px">Fasaprestigebuilders.com</strong>
                         <p class="mt-1">A professional construction website.</p>
                         <a class="d-grid gap-2 text-decoration-none" href="https://fasaprestigebuilders.com/" target="_blank">
-                            <button class="btn" type="button"><i class="fa fa-arrow-up"></i> View it</button>
+                            <button class="view btn" type="button"><i class="fa fa-arrow-up"></i> View it</button>
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 pro d-flex justify-content-center mb-4">
+        
+                <!-- Project 2 -->
+                <div class="col-12 col-md-6 col-lg-6 col-xl-4 pro d-flex justify-content-center mb-4">
                     <div class="ject ject2">
-                        <img src="Forimages/Screenshot Oobconnect 2024-09-18.png" height="210" alt="Broken">
+                        <img src="Forimages/Screenshot-oobconnect-mockup.png" height="210" alt="Broken">
                         <strong style="font-size: 24px">Oobconnect.com</strong>
                         <p class="mt-1">The softwarehouse official website.</p>
                         <a class="d-grid gap-2 text-decoration-none" href="https://oobconnect.com/" target="_blank">
-                            <button class="btn" type="button"><i class="fa fa-arrow-up"></i> View it</button>
+                            <button class="view btn" type="button"><i class="fa fa-arrow-up"></i> View it</button>
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-5 col-xl-4 pro d-flex justify-content-center mb-4">
+        
+                <!-- Project 3 -->
+                <div class="col-12 col-md-6 col-lg-6 col-xl-4 pro d-flex justify-content-center mb-4">
                     <div class="ject ject3">
                         <img src="Forimages/Screenshot assignmentsup 2024-02-15 1040.png" height="210" alt="Broken">
                         <strong style="font-size: 24px">Assignmentsup.com</strong>
                         <p class="mt-1">A professional business website.</p>
                         <a class="d-grid gap-2 text-decoration-none" href="https://assignmentsup.com/" target="_blank">
-                            <button class="btn" type="button"><i class="fa fa-arrow-up"></i> View it</button>
+                            <button class="view btn" type="button"><i class="fa fa-arrow-up"></i> View it</button>
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Project 4 -->
+                <div class="col-12 col-md-6 col-lg-6 col-xl-4 pro d-flex justify-content-center mb-4">
+                    <div class="ject ject1">
+                        <img src="Forimages/taxi-kull-bern-mockup-213.png" height="210" alt="Broken">
+                        <strong style="font-size: 24px">taxi-kull-bern.ch</strong>
+                        <p class="mt-1">A business website for a Swiss Client.</p>
+                        <a class="d-grid gap-2 text-decoration-none" href="https://taxi-kull-bern.ch" target="_blank">
+                            <button class="view btn" type="button"><i class="fa fa-arrow-up"></i> View it</button>
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Project 5 -->
+                <div class="col-12 col-md-6 col-lg-6 col-xl-4 pro d-flex justify-content-center mb-4">
+                    <div class="ject ject2">
+                        <img src="Forimages/bern-taxipluskhan.png" height="210" alt="Broken">
+                        <strong style="font-size: 24px">bern.taxipluskhan.ch</strong>
+                        <p class="mt-1">Another business website for Client.</p>
+                        <a class="d-grid gap-2 text-decoration-none" href="https://bern.taxipluskhan.ch/" target="_blank">
+                            <button class="view btn" type="button"><i class="fa fa-arrow-up"></i> View it</button>
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Project 6 -->
+                <div class="col-12 col-md-6 col-lg-6 col-xl-4 pro d-flex justify-content-center mb-4">
+                    <div class="ject ject3">
+                        <img src="Forimages/snowberry-sys-mockup-927.png" height="210" alt="Broken">
+                        <strong style="font-size: 24px">Snowberrysys.com</strong>
+                        <p class="mt-1">A professional product base website.</p>
+                        <a class="d-grid gap-2 text-decoration-none" href="https://Snowberrysys.com/" target="_blank">
+                            <button class="view btn" type="button"><i class="fa fa-arrow-up"></i> View it</button>
                         </a>
                     </div>
                 </div>
             </div>
-        </div>
-        
+        </div>        
     </div>
+
     <div class="container-fluid parpal">
-        <div class="row p-5">
+        <div class="row mt-3 p-5" id="discuss">
+          <form name="contact-form" method="POST" class="row" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact-form" />
+            <p hidden>
+              <label>Don’t fill this out: <input name="bot-field" /></label>
+            </p>
             <div class="col-sm-6">
-                <h1 style="color: #331c52;"><strong>Let's Discuss,<br>on something <span style="color: #d43c62dc;">cool</span> together!</strong></h1>
-                <div class="pb-5"></div>
-                <h3 class="fs-4 pt-5 pb-3" style="color: #331c52;">I'm interested in...</h3>
-                <div class="butons mb-2">
-                    <button class="btn mt-2" type="button">Landing page</button>
-                    <button class="btn mt-2" type="button">Business Website</button>
-                </div>
-                <div class="butons pb-2">
-                    <button class="btn mt-2" type="button">Ecommerce Website</button>
-                    <button class="btn mt-2" type="button">Blog Website</button>
-                </div>
+              <h1 style="color: #331c52;">
+                <strong>Let's Discuss,<br>on something <span style="color: #d43c62dc;">cool</span> together!</strong>
+              </h1>
+              <div class="trio pb-5"></div>
+              <h3 class="rested fs-4 pt-5 pb-3" style="color: #331c52;">I'm interested in...</h3>      
+              <div class="butons d-flex gap-3 mb-3 flex-wrap">
+                <button class="btn" type="submit" name="website_type" value="Landing Page">Landing page</button>
+                <button class="btn" type="submit" name="website_type" value="Business Website">Business Website</button>
+              </div>      
+              <div class="butons d-flex gap-3 mb-3 flex-wrap">
+                <button class="btn" type="submit" name="website_type" value="Ecommerce Website">Ecommerce Website</button>
+                <button class="btn" type="submit" name="website_type" value="Blog Website">Blog Website</button>
+              </div>
             </div>
-            <div class="col-sm-6 mt-5">
-                <form action="" class="d-grid gap-2">
-                    <input type="text" placeholder="Your Name" class="mb-3">
-                    <input type="email" placeholder="Your Email" class="mb-3">
-                    <textarea name="message" id="message" placeholder="Your message" rows="5" class="mb-3"></textarea>
-                    <a class="d-grid gap-2 text-decoration-none" href="" target="">
-                        <button class="btn submit" type="button"><i class="fa-regular fa-paper-plane"></i> Submit</button>
-                    </a>
-                </form>
+            <div class="col-sm-6 mt-2 d-grid gap-2">
+              <input type="text" required placeholder="Your Name" name="Name" class="mb-3" />
+              <input type="email" required placeholder="Your Email" name="Email" class="mb-3" />
+              <textarea name="Message" required placeholder="Your message" rows="5" class="mb-3"></textarea>
+              <div data-netlify-recaptcha="true" class="mb-3"></div>
+      
+              <button class="btn submit" type="submit"><i class="fa-regular fa-paper-plane"></i> Submit</button>
             </div>
+          </form>
         </div>
     </div>
+      
     <div class="container-fluid darked">
         <div class="row pt-5 pb-5">
             <div class="col-sm-12 text-center">
@@ -447,11 +285,14 @@
                     <a href="https://www.facebook.com/Mehnan.Kashif.58" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                     <a href="mailto:mehnankashif@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
                     <a href="https://github.com/mehnan5" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/mehnan-kashif-b3a7ba249/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/mehnan-kashif-mmk534" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 </span>
             </div>
         </div>
     </div>
+    <footer class="text-center text-light p-3" style="background-color: #8121d0;">
+        © 2025 Mehnan Kashif. All rights reserved.
+    </footer>   
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
