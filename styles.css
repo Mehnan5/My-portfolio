@@ -1,0 +1,316 @@
+        /* DarkerPurple: #291c3a;
+           DarkPurple: #331c52; 
+           Purple: #8121d0;
+           LesserWhite: #dccfed;
+           LessWhite: #e1ebed;
+           White: #ffffff;*/
+        
+           /*buttons hover*/
+        #hire:hover {
+            background-color: #331c52;
+            color: #fff;
+        }
+
+        #resume:hover {
+            background-color: #d1bfe9;
+            border: 1px solid #291c3a;
+        }
+
+        #gets:hover {
+            border: 1px solid #fff;
+            color: white;
+            background-color: #291c3a;
+        }
+           /*Logo Text*/
+        .mkd {
+            font-family: 'showboat';
+            src: url('fonts/showboat-webfont.woff2') format('woff2'),
+                url('fonts/showboat-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-size: 42px;     
+            cursor: pointer;       
+        }
+
+        @font-face {
+            font-family: 'showboat';
+            src: url('fonts/showboat-webfont.woff2') format('woff2'),
+                url('fonts/showboat-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .nav-item a {
+            color: #fff;
+        }
+
+        .nav-item a:hover {
+            color: #291c3a;
+        }
+
+        .main {
+            background-image: linear-gradient(to right, #331c52, #291c3a);
+        }
+
+        .name {
+            color:#d1bfe9;
+            font-size: 75px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        .social a {
+            color: #d1bfe9;
+            padding-right: 15px;
+            font-size: 36px;
+            line-height: 42px;
+        }
+
+        .social a:hover {
+            color: white;
+        }
+
+        .sontact a:hover {
+            color: #d1bfe9;
+        }
+
+        .exp {
+            font-size: 21px;
+            color:#d1bfe9;
+        }
+
+        .skills img {
+            width: 60px;
+            height: 60px;
+            margin-left: 10px;
+        }
+
+        .pro .ject {
+            width: 320px;
+            height: 360px;
+            background-color: #d1bfe9;
+            margin-right: 15px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+        }     
+        
+        .ject img {
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        .ject .btn {
+            background-color: #331c52;
+            color: #fff;
+        }
+
+        .parpal {
+            background-color: #d1bfe9;
+        }
+
+        .darked {
+            background-color: #331c52;
+        }
+
+        .butons .btn {
+            border: 2px solid #331c52;
+            color: #331c52;
+            font-weight: bold;
+        }
+
+        .butons .btn:hover, .butons .btn:active, .danke {
+            background-color: #331c52;
+            color: #d1bfe9;
+        }
+
+        .submit {
+            background-color: #331c52;
+            color: #fff;
+        }
+
+        .submit:hover, .submit:active, .view:hover, view:active {
+            background-color: #d43c62dc;
+            color: #fff;
+        }
+
+        .col-sm-6 input, textarea {
+            border: none;
+            padding: 10px 15px;
+            color: #331c52;
+            font-size: 19px; 
+            border-radius: 5px;
+        }
+
+        .danke {
+            font-family: 'anglotext';
+            src: url('fonts/anglotext-webfont.woff2') format('woff2'),
+                url('fonts/anglotext-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-size: 42px;     
+            cursor: pointer;       
+        }
+
+        .sontact a {
+            color: #fff;
+            padding-right: 15px;
+            font-size: 32px;
+        }
+
+    /* Responsive Styles */
+
+        @media (max-width: 1324px) {
+
+            .navbar-toggler, .navbar-toggler:hover {
+                background: white;
+            }
+
+            .navbar-collapse {
+                margin-left: 3rem;
+            }
+
+            .hund {
+                width: 100%;
+                text-align: center;
+                margin-top: 10px;
+            }
+            
+            .skills {
+                text-align: left !important;
+            }
+            
+            .fift {
+                width: 50%;
+                text-align: center;
+            }
+
+            .trio {
+                display: none;
+            }
+
+            .shadding {
+                padding: 40px 20px !important;
+            }
+
+            .maright {
+                margin-right: 10px !important;
+            }
+
+            .jqury, .ghli {
+                display: none;
+            }
+        }
+
+        @media (max-width: 992px) {
+
+            .navbar-collapse {
+                margin-left: 0;
+            }
+
+            .name {
+                font-size: 2.5rem;
+            }
+
+            .exp {
+                font-size: 1rem;
+            }
+
+            .jqury, .ghli {
+                display: inline;
+            }
+
+            .navbar-brand, .skills {
+                font-size: 2rem;
+            }
+
+            .nav-item, #hire {
+                margin-left: 50px;
+            }
+
+            .xenter {
+                text-align: center;
+            }
+
+            .upspace h3 {
+                margin-top: 15px;
+            }
+        }
+
+        @media (max-width: 576px) {
+
+            .navbar-brand, .skills {
+                font-size: 1.5rem;
+            }
+
+            .navbar-toggler, .navbar-toggler:hover {
+                margin-right: 10px !important;
+            }
+
+            .name {
+                font-size: 2rem;
+            }
+
+            .exp {
+                font-size: 0.9rem;
+            }
+
+            .social a, .sontact a {
+                font-size: 27px;
+            }
+
+            .fift {
+                width: 100%;
+                text-align: center;
+            }
+
+            .projects {
+                margin-left: 0 !important;
+            }
+
+            #skills {
+                margin-top: 36px;
+                padding-left: 16px !important;
+            }
+
+            .skills img, .skills-2 img {
+                width: 50px;
+                height: 50px;
+            }
+
+            .jqury, .ghli {
+                width: 100px !important;
+                height: 50px !important;
+            }
+
+            #discuss {
+                padding: 40px 15px !important;
+            }
+
+            .upspace {
+                margin-top: 8px;
+            }
+
+            .danke {
+                font-size: 36px;
+            }
+
+        }
+
+        @media (max-width: 415px) {
+            .mkd {
+                margin-left: 10px !important;
+            }
+            
+            .navbar-collapse {
+                margin-left: -40px;
+            }
+
+            .jqury, .ghli {
+                display: none;
+            }
+
+            .danke {
+                font-size: 30px;
+            }
+        }
