@@ -243,35 +243,42 @@
 
     <div class="container-fluid parpal">
         <div class="row mt-3 p-5" id="discuss">
-          <form name="contact-form" method="POST" class="row" data-netlify="true" netlify-honeypot="bot-field">
-            <input type="hidden" name="form-name" value="contact-form" />
-            <p hidden>
-              <label>Don’t fill this out: <input name="bot-field" /></label>
-            </p>
-            <div class="col-sm-6">
-              <h1 style="color: #331c52;">
-                <strong>Let's Discuss,<br>on something <span style="color: #d43c62dc;">cool</span> together!</strong>
-              </h1>
-              <div class="trio pb-5"></div>
-              <h3 class="rested fs-4 pt-5 pb-3" style="color: #331c52;">I'm interested in...</h3>      
-              <div class="butons d-flex gap-3 mb-3 flex-wrap">
-                <button class="btn" type="submit" name="website_type" value="Landing Page">Landing page</button>
-                <button class="btn" type="submit" name="website_type" value="Business Website">Business Website</button>
-              </div>      
-              <div class="butons d-flex gap-3 mb-3 flex-wrap">
-                <button class="btn" type="submit" name="website_type" value="Ecommerce Website">Ecommerce Website</button>
-                <button class="btn" type="submit" name="website_type" value="Blog Website">Blog Website</button>
-              </div>
-            </div>
-            <div class="col-sm-6 mt-2 d-grid gap-2">
-              <input type="text" required placeholder="Your Name" name="Name" class="mb-3" />
-              <input type="email" required placeholder="Your Email" name="Email" class="mb-3" />
-              <textarea name="Message" required placeholder="Your message" rows="5" class="mb-3"></textarea>
-              <div data-netlify-recaptcha="true" class="mb-3"></div>
-      
-              <button class="btn submit" type="submit"><i class="fa-regular fa-paper-plane"></i> Submit</button>
-            </div>
-          </form>
+            <form name="contact-form" method="POST" class="row" data-netlify="true" netlify-honeypot="bot-field">
+                <input type="hidden" name="form-name" value="contact-form" />
+                <p hidden>
+                    <label>Don’t fill this out: <input name="bot-field" /></label>
+                </p>
+                <div class="col-sm-6">
+                    <h1 style="color: #331c52;">
+                        <strong>Let's Discuss,<br>on something <span style="color: #d43c62dc;">cool</span> together!</strong>
+                    </h1>
+                    <div class="trio pb-5"></div>
+                    <h3 class="rested fs-4 pt-5 pb-3" style="color: #331c52;">I'm interested in...</h3>
+                    <div class="butons d-flex gap-3 mb-3 flex-wrap">
+                        <label class="btn">
+                            <input type="radio" name="website_type" value="Landing Page" hidden required />Landing Page
+                        </label>
+                        <label class="btn">
+                            <input type="radio" name="website_type" value="Business Website" hidden />Business Website
+                        </label>
+                    </div>
+                    <div class="butons d-flex gap-3 mb-3 flex-wrap">
+                        <label class="btn">
+                            <input type="radio" name="website_type" value="Ecommerce Website" hidden />Ecommerce Website
+                        </label>
+                        <label class="btn">
+                            <input type="radio" name="website_type" value="Blog Website" hidden />Blog Website
+                        </label>
+                    </div>
+                </div>
+                <div class="col-sm-6 mt-2 d-grid gap-2">
+                    <input type="text" required placeholder="Your Name" name="Name" class="mb-3" />
+                    <input type="email" required placeholder="Your Email" name="Email" class="mb-3" />
+                    <textarea name="Message" required placeholder="Your message" rows="5" class="mb-3"></textarea>
+                    <div data-netlify-recaptcha="true" class="mb-3"></div>
+                    <button class="btn submit" type="submit"><i class="fa-regular fa-paper-plane"></i> Submit</button>
+                </div>
+            </form>
         </div>
     </div>
       
